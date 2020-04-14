@@ -4,9 +4,11 @@ body {
   font-family: 'Abel', sans-serif;
   background: white;
   color: black;
-  max-width: 36em;
+  /* max-width: 36em; */
   margin: 0 auto
 }
+
+/* code inloggen */
 
 a {
   color: black;
@@ -38,7 +40,7 @@ form{
   margin: 0 auto;
   padding: 1em;
   border: solid #ededed;
-  border-radius: 10px;
+  border-radius: 5px;
   
   box-shadow: 11px 12px 23px -4px rgba(122,122,122,0.52);;
   
@@ -56,7 +58,7 @@ input, textarea, button {
   font-size: 1em;
   padding: 0.5em;
   border-width: 0;
-  border-radius: 0.25em
+  border-radius: 0.10em
 }
 
 input, textarea { width: 100% }
@@ -107,6 +109,74 @@ a:visited {
   
 }
 
+/* code gekleurd vlak */
+
+.vlak:not(#formtess){
+  background-color: #e8ba9b;
+  max-width: 100%;
+  margin-left: 20px;
+  margin-right: 20px;
+  padding-bottom: 170px;
+  margin-bottom: 10px;
+  }
+
+  #logoZwart{
+    position: absolute;
+    padding: 20px;
+    width: 12%;
+    padding-top: 30px;
+  }
+
+  /* balk registreren knop */
+
+
+nav {
+  background-color: white;
+}
+
+
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+  
+
+}
+
+nav li {
+  display: inline-block;
+  margin-left: 27px;
+
+  /* padding-top: 35px; */
+  
+background-color: #e8ba9b;
+
+}
+
+nav a {
+  color:white;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 20px;
+  padding: 0px 7px;
+  font-family: 'Oswald', sans-serif;
+
+
+
+}
+
+nav a:hover {
+  color: #000000 ;
+}
+
+
+/* einde css login */
+
 .lijst-matches {
   background-color: pink;
   padding: 1em;
@@ -154,3 +224,4 @@ a:visited {
 
   margin: 0;
 }
+

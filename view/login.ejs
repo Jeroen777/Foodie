@@ -1,11 +1,29 @@
 <% include head.ejs %>
 <title>Inloggen</title>
+
+<img id='logoZwart' src="images/logoZwart.jpg" alt="logo">
+
+<div class="vlak" >
+
+
+<header>
+
+  <nav>
+      <ul>
+
+          <li><a href="registreren">Registreren</a></li>
+      </ul>
+  </nav>
+
+</header>
+
 <h1>Inloggen</h1>
-<form action=/login method=post>
+<form id="formtess" action=/login method=post>
   <label>Naam <input name=naam></label>
   <label>Wachtwoord <input name=wachtwoord type=password></label>
   <button>Inloggen</button>
 </form>
 
-<a href="registreren">Nog geen account?</a>
+
+</div>
 <% include tail.ejs %>
