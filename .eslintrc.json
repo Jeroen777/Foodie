@@ -4,7 +4,8 @@
         "es6": true
     },
     "extends": [
-        "google"
+        "eslint:recommended",
+        "plugin:@typescript-eslint/eslint-recommended"
     ],
     "globals": {
         "Atomics": "readonly",
