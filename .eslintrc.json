@@ -4,8 +4,7 @@
         "es6": true
     },
     "extends": [
-        "eslint:recommended",
-        "plugin:@typescript-eslint/eslint-recommended"
+        "google"
     ],
     "globals": {
         "Atomics": "readonly",
@@ -20,5 +19,7 @@
         "@typescript-eslint"
     ],
     "rules": {
+        "quotes": [2, "single", { "avoidEscape": true }],
+        "beforeStatementContinuationChars": "never"
     }
 }

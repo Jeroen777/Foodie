@@ -108,9 +108,9 @@ a:visited {
 }
 
 
-/////////////////////////////////////////////////////
+
 /* Hier begint de code voor het maken van de keuzes /
-/////////////////////////////////////////////////////
+
 
 
 
@@ -131,8 +131,6 @@ a:visited {
   width: 100%;
 }
 
-<<<<<<< HEAD
-=======
 .profiel-info img{
   width: 60%;
   display: block;
@@ -169,14 +167,11 @@ a:visited {
 
 
 
->>>>>>> 72d7d1b2fee6246ed06202a0aff0ee07bb65215d
 [type=radio] {
   position: absolute;
   opacity: 0;
   width: 0;
   height: 0;
-<<<<<<< HEAD
-=======
 }
 
 
@@ -197,7 +192,6 @@ a:visited {
 button { 
   width: 100%;
   margin-top: 3em;
->>>>>>> 72d7d1b2fee6246ed06202a0aff0ee07bb65215d
 }
 
 [type=radio] + img { 
