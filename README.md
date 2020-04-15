@@ -1,14 +1,15 @@
-In deze readme kun je informatie vinden over de feature die ik heb gebouwd.
+In deze readme kun je informatie vinden over de features de we gebouwd hebben.
 
 # Foodie
 
 We hebben een datingsapp gemaakt voor voedselliefhebbers. Onze gebruiker kan een profiel aanmaken in de app en voorkeuren geven over zijn/haar interesses.
 
+# Onze app
+![dating-app](https://user-images.githubusercontent.com/60734114/79316256-5f148b00-7f04-11ea-9e24-e8c75c5a1d44.gif)
+
 # Code style
 
-
-# Screenshots
-
+Bekijk onze codestandaarden hier: https://github.com/Jeroen777/Foodie/wiki/Code-standaarden
 
 # Tech
 * We hebben de server opgezet met Express en NodeJS. 
