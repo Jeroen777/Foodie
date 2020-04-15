@@ -49,9 +49,7 @@ form{
 form {
   display: block;
   box-sizing: border-box;
- 
-  /*het geeft de padding en border mee aan de width en height van de box*/
-  /* width: 100%; */
+  width: 100%;
 }
 
 input, textarea, button {
@@ -64,12 +62,8 @@ input, textarea, button {
 input, textarea { width: 100% }
 
 input {
-  /* padding: 2em;
-  margin: 1em 0; */
-
   border-radius: 5px;
   border: 1.2px solid #bfbfbf;
-  
   outline-color: #fcd303;
 }
 
@@ -92,6 +86,25 @@ button:hover {
   border-color: #b5ceeb;
   transition: all 0.6s ease 0.1s;
 }
+
+#lisucces{
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  background-color: #b5ceeb;
+  padding: 10px 10px;
+  margin: 5px 630px;
+  border-radius: 0.10em;
+
+}
+
+#lisucces:hover{
+  background: #fcd303;
+  color: #FFF;
+  border-color: #b5ceeb;
+  transition: all 0.6s ease 0.1s;
+}
+
 a {
   color: black;
   font-size: 1.2em;
@@ -110,6 +123,9 @@ a:visited {
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 20f0fcca7adf02915d1b0e62150ee0af6fd76528
 /* code gekleurd vlak */
 
 .vlak:not(#formtess){
@@ -183,6 +199,7 @@ nav a:hover {
   padding: 1em;
   margin-bottom: 2em;
 }
+<<<<<<< HEAD
 
 
 /* Hier begint de code voor het maken van de keuzes /
@@ -218,6 +235,8 @@ nav a:hover {
   right: 0;
   margin: auto;
 }
+=======
+>>>>>>> 20f0fcca7adf02915d1b0e62150ee0af6fd76528
 
 
 /*///////////////////////////////////////////////////*/
@@ -245,9 +264,12 @@ nav a:hover {
 
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 >>>>>>> 154d48f6950cf367283ebcb215e1ca097412bf88
+=======
+>>>>>>> 20f0fcca7adf02915d1b0e62150ee0af6fd76528
 [type=radio] {
   position: absolute;
   opacity: 0;
@@ -291,17 +313,23 @@ nav a:hover {
 button { 
   width: 100%;
 <<<<<<< HEAD
+<<<<<<< HEAD
   margin-top: 3em;
 =======
   margin-top: 2em;
 
 >>>>>>> 154d48f6950cf367283ebcb215e1ca097412bf88
+=======
+  margin-top: 2em;
+
+>>>>>>> 20f0fcca7adf02915d1b0e62150ee0af6fd76528
 }
 
 [type=radio] + img { 
   cursor: pointer;
 }
 
+<<<<<<< HEAD
 [type=radio]:checked + img {
   border: 3px solid #FFBAAC;
 }
@@ -312,3 +340,6 @@ button {
   margin: 0;
 }
 
+=======
+  
+>>>>>>> 20f0fcca7adf02915d1b0e62150ee0af6fd76528
