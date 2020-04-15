@@ -203,20 +203,6 @@ function match(req, res, next) {
   res.render('profile.ejs', {data: match})
 }
 
-
-<<<<<<< HEAD
-
-function loginform(req, res) {
-  res.render('login.ejs')
-}
-
-function form(req, res) {
-  res.render('registreren.ejs')
-}
-
-
-=======
->>>>>>> login2
 //functie om de al eerder opgeslagen antwoorden te veranderen a
 function updateAnswer(req, res) {
   let form = req.body;

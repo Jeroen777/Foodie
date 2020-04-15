@@ -49,13 +49,7 @@ form{
 form {
   display: block;
   box-sizing: border-box;
-<<<<<<< HEAD
- 
-  /*het geeft de padding en border mee aan de width en height van de box*/
-  /* width: 100%; */
-=======
   width: 100%;
->>>>>>> login2
 }
 
 input, textarea, button {
@@ -128,16 +122,6 @@ a:visited {
   
 }
 
-<<<<<<< HEAD
-.profiel-info img{
-  width: 60%;
-  display: block;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  margin: auto;
-=======
 /* code gekleurd vlak */
 
 .vlak:not(#formtess){
@@ -210,7 +194,6 @@ nav a:hover {
   background-color: pink;
   padding: 1em;
   margin-bottom: 2em;
->>>>>>> login2
 }
 
 
@@ -288,16 +271,4 @@ button {
   cursor: pointer;
 }
 
-<<<<<<< HEAD
-[type=radio]:checked + img {
-  border: 3px solid #FFBAAC;
-}
-
-button { 
-  width: 100%;
-}
-=======
-  margin: 0;
-}
-
->>>>>>> login2
+  
