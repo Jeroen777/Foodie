@@ -109,6 +109,7 @@ a:visited {
   
 }
 
+<<<<<<< HEAD
 /* code gekleurd vlak */
 
 .vlak:not(#formtess){
@@ -206,6 +207,8 @@ nav a:hover {
   width: 100%;
 }
 
+=======
+>>>>>>> 154d48f6950cf367283ebcb215e1ca097412bf88
 .profiel-info img{
   width: 60%;
   display: block;
@@ -241,7 +244,10 @@ nav a:hover {
 }
 
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 154d48f6950cf367283ebcb215e1ca097412bf88
 [type=radio] {
   position: absolute;
   opacity: 0;
@@ -263,10 +269,33 @@ nav a:hover {
   filter: brightness(100%)
 }
 
+.button {
+  text-decoration: none;
+  background-color: #FFF;
+  padding: 1em;
+  margin: 1em 0 0;
+  font-size: 1.2em;
+  font-family: 'Oswald', sans-serif;
+  border-radius: 5px;
+  border: 3px solid #FFBAAC;
+  outline-color: #FFBAAC;
+}
+
+.button:hover {
+  background: #FFBAAC;
+   color: #FFF;
+   border-color: #FFBAAC;
+   transition: all 0.6s ease 0.1s;
+ }
 
 button { 
   width: 100%;
+<<<<<<< HEAD
   margin-top: 3em;
+=======
+  margin-top: 2em;
+
+>>>>>>> 154d48f6950cf367283ebcb215e1ca097412bf88
 }
 
 [type=radio] + img { 

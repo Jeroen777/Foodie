@@ -130,8 +130,13 @@ const deMatches = [
     id: 'match1',
     name: 'Sarah',
     age: '22, Utrecht',
+<<<<<<< HEAD
     eten: 'Favo eten: Lasagna', 
     over: '"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad', 
+=======
+    eten: 'Favo eten: Lasagen', 
+    over: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad', 
+>>>>>>> 154d48f6950cf367283ebcb215e1ca097412bf88
     foto: 'images/profiel1.jpg'
   },
   {
