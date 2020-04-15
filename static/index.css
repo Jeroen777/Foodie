@@ -49,8 +49,6 @@ form{
 form * {
   display: block;
   box-sizing: border-box;
- 
-  /*het geeft de padding en border mee aan de width en height van de box*/
   width: 100%;
 }
 
@@ -64,12 +62,8 @@ input, textarea, button {
 input, textarea { width: 100% }
 
 input {
-  /* padding: 2em;
-  margin: 1em 0; */
-
   border-radius: 5px;
   border: 1.2px solid #bfbfbf;
-  
   outline-color: #fcd303;
 }
 
@@ -92,6 +86,25 @@ button:hover {
   border-color: #b5ceeb;
   transition: all 0.6s ease 0.1s;
 }
+
+#lisucces{
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  background-color: #b5ceeb;
+  padding: 10px 10px;
+  margin: 5px 630px;
+  border-radius: 0.10em;
+
+}
+
+#lisucces:hover{
+  background: #fcd303;
+  color: #FFF;
+  border-color: #b5ceeb;
+  transition: all 0.6s ease 0.1s;
+}
+
 a {
   color: black;
   font-size: 1.2em;

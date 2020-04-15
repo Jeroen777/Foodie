@@ -51,7 +51,6 @@ app
   .post('/login', checklogin)
   .get('/registreren', form)
   .get('/login', loginform)
-  // .get('/:id', user)
   .get('/loginFailed', checklogin)
   .get('/loginSucces', checklogin)
   .post('/sendChoice', sendChoice)
@@ -80,22 +79,51 @@ function gebruikers(req, res, next) {
   }
 }
 
-// function user(req, res, next) {
-//   const id = req.params.id
+function loginform(req, res) {
+  res.render('login.ejs')
+}
 
-//   db.collection('users').findOne({
-//     _id: new mongo.ObjectID(id)
-//   }, done)
+function form(req, res) {
+  res.render('registreren.ejs')
+}
 
-//   function done(err, data) {
-//     if (err) {
-//       next(err)
-//     } else {
-//       res.render('detail.ejs', {data: data})
-//     }
-//   }
-// }
+//Code Tess
+function add(req, res, next) {
+  collection.insertOne({
+    naam: req.body.naam,
+    email: req.body.email,
+    wachtwoord: req.body.wachtwoord
+  }, done)
 
+  function done(err, data) {
+    if (err) {
+      next(err)
+    } else {
+      res.redirect('/')
+    }
+  }
+}
+
+//checkt de ingegeven username en het wachtwoord met die uit de database 
+function checklogin(req, res, next) {
+  collection.findOne({naam:req.body.naam}, inloggen) 
+
+
+  function inloggen(err, data) {
+    if (err) {
+      next(err)
+    } else {
+      if (data.wachtwoord == req.body.wachtwoord) {
+        console.log('Login geslaagd')
+        res.render('loginSucces.ejs')
+      } else {
+        console.log('Login mislukt')
+        res.render('loginFailed.ejs')
+  
+      }
+    }
+  }
+}
 
  //Data voor de form
  const formData = {
@@ -176,18 +204,6 @@ function match(req, res, next) {
 }
 
 
-
-
-
-function loginform(req, res) {
-  res.render('login.ejs')
-}
-
-function form(req, res) {
-  res.render('registreren.ejs')
-}
-
-
 //functie om de al eerder opgeslagen antwoorden te veranderen a
 function updateAnswer(req, res) {
   let form = req.body;
@@ -250,46 +266,6 @@ function sendChoice(req, res, next) {
     }
   }
 }
-
-//Code Tess
-function add(req, res, next) {
-  collection.insertOne({
-    naam: req.body.naam,
-    email: req.body.email,
-    wachtwoord: req.body.wachtwoord
-  }, done)
-
-  function done(err, data) {
-    if (err) {
-      next(err)
-    } else {
-      res.redirect('/')
-    }
-  }
-}
-
-//checkt de ingegeven username en het wachtwoord met die uit de database 
-function checklogin(req, res, next) {
-  collection.findOne({naam:req.body.naam}, inloggen) 
-
-
-  function inloggen(err, data) {
-    if (err) {
-      next(err)
-    } else {
-      if (data.wachtwoord == req.body.wachtwoord) {
-        console.log('Login geslaagd')
-        res.render('loginSucces.ejs')
-      } else {
-        console.log('Login mislukt')
-        res.render('loginFailed.ejs')
-  
-      }
-    }
-  }
-}
-
-
 
 //dealt met not found pages
 function notFound(req, res) {
