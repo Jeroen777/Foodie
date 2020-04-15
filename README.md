@@ -1,4 +1,4 @@
-In deze readme kun je informatie vinden over de feature die ik heb gebouwd.
+In deze readme kun je informatie vinden over de features de we gebouwd hebben.
 
 # Foodie
 
