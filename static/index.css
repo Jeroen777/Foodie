@@ -107,32 +107,6 @@ a:visited {
   
 }
 
-
-/////////////////////////////////////////////////////
-/* Hier begint de code voor het maken van de keuzes /
-/////////////////////////////////////////////////////
-
-
-
-// FORMFIELD /*/
-
-.food-form {
-  max-width: 50%;
-}
-
-.food-choice {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-
-}
-
-.food-choice img {
-  width: 100%;
-}
-
-<<<<<<< HEAD
-=======
 .profiel-info img{
   width: 60%;
   display: block;
@@ -168,15 +142,11 @@ a:visited {
 }
 
 
-
->>>>>>> 72d7d1b2fee6246ed06202a0aff0ee07bb65215d
 [type=radio] {
   position: absolute;
   opacity: 0;
   width: 0;
   height: 0;
-<<<<<<< HEAD
-=======
 }
 
 
@@ -193,11 +163,29 @@ a:visited {
   filter: brightness(100%)
 }
 
+.button {
+  text-decoration: none;
+  background-color: #FFF;
+  padding: 1em;
+  margin: 1em 0 0;
+  font-size: 1.2em;
+  font-family: 'Oswald', sans-serif;
+  border-radius: 5px;
+  border: 3px solid #FFBAAC;
+  outline-color: #FFBAAC;
+}
+
+.button:hover {
+  background: #FFBAAC;
+   color: #FFF;
+   border-color: #FFBAAC;
+   transition: all 0.6s ease 0.1s;
+ }
 
 button { 
   width: 100%;
-  margin-top: 3em;
->>>>>>> 72d7d1b2fee6246ed06202a0aff0ee07bb65215d
+  margin-top: 2em;
+
 }
 
 [type=radio] + img { 
