@@ -6,10 +6,7 @@ We hebben een datingsapp gemaakt voor voedselliefhebbers. Onze gebruiker kan een
 
 # Code style
 
-
-# Screenshots
 ![dating-app](https://user-images.githubusercontent.com/60734114/79316256-5f148b00-7f04-11ea-9e24-e8c75c5a1d44.gif)
-
 
 # Tech
 * We hebben de server opgezet met Express en NodeJS. 
