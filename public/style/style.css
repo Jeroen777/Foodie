@@ -29,8 +29,6 @@ form{
 form * {
     display: block;
     box-sizing: border-box;
-   
-    /*het geeft de padding en border mee aan de width en height van de box*/
     width: 100%;
 }
 
@@ -97,3 +95,7 @@ a:visited {
     text-decoration: none;
     
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> login2
