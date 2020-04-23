@@ -65,3 +65,4 @@ Dit project maakt gebruik van een MIT License.
 [MIT License](https://github.com/MariaS20/Blok-Tech/blob/master/LICENSE.md)
 
 Deze app is gemaakt Jeroen Besselink, Jenny Nijhof en Tess Smit
+# FrontendForDesigners
